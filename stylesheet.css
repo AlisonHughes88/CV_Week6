@@ -1,0 +1,102 @@
+#button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+   
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%
+	width;
+	
+	
+	
+	
+}
+.flex-item-left {
+	font: center;
+	background-color: pink;
+	flex: 1;
+	flex:33%;
+	border: 1px solid black;
+	padding:1%;
+	justify-content: center;
+}
+
+.flex-item-center{
+	font: center;
+	background-color: pink;
+	flex: 2;
+	flex:33%;
+	border: 1px solid black;
+	padding:1%;
+	justify-content: center;
+}
+
+.flex-item-right{
+	font: center;
+	background-color: pink;
+	flex: 3;
+	flex:33.33%;
+	border: 1px solid black;
+	padding:1%;
+	justify-content: center;
+}
+
+
+
+#one{
+	background-color: orange;
+	justify-content:flex-center;
+	flex: 98%;
+	float:center;
+	border: 1px solid black;
+	padding:1%;
+		justify-content: center;
+
+}
+
+#two{
+	background-color: purple;
+	flex: 98%;
+	
+	float:center;
+	border: 1px solid black;
+	padding:1%;
+		justify-content: center;
+
+}
+
+ul.a {list-style-type: circle;}
+		body {background-color:#4E919D;}
+		@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+	font-family: Asap;
+	justify-content: flex-center;}
+	
+@media (max-width: 800px) {
+  .flex-item-left, .flex-item-center, .flex-item-right {
+    flex: 100%;
+  }
+}
+	
+
+		
+	
+
+
+
+
+	
